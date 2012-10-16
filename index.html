@@ -3,6 +3,7 @@
 <head>
     <title>Школа веб-разработки HackDay</title>
     <link href="bootstrap/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/layout.css" media="all" rel="stylesheet" type="text/css" />
     <meta http-equiv="content-type" content="charset=utf-8">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -17,12 +18,38 @@
 
 
 <div class="container">
-    <h1>Школа веб-разработки HackDay</h1>
-    <p>Школа HackDay - это несколько образовательных направлений, по результатам которых вы получите не свидетельство о прохождении курса, а практический опыт решения ваших задач, который вы начнете применять в своих целях еще до того, как окончите курс.</p>
+
+    <header class="row">
+        <div class="span6">
+            <div class="description">Школа веб-разработки</div>
+            <div class="name">HackDay</div>
+        </div>
+        <div class="span6">
+            <div class="intro">Школа HackDay - это несколько образовательных направлений, по результатам которых вы получите не свидетельство о прохождении курса, а практический опыт решения ваших задач, который вы начнете применять в своих целях еще до того, как окончите курс.</div>
+        </div>
+    </header>
+
+
+    <hr>
+
     <div class="row">
         <div class="span6">
             <h3>Курс веб-разработки</h3>
-            <p>Если вы решили разработать свой стартап, но у вас нет технической команды и пока еще нет инвестиций на заказную разработку, вы можете сделать первую версию своего стартапа самостоятельно. Даже не смотря на то, что вы совершенно не умеете программировать.</p>
+            <p>Если вы решили разработать свой стартап, но у вас нет технической команды и инвестиций на заказную разработку, вы можете сделать первую версию своего стартапа самостоятельно. Даже не смотря на то, что вы совершенно не умеете программировать.</p>
+
+
+        </div>
+        <div class="span6">
+            <h3>Курс IT-предпринимательства</h3>
+            <p>Если вы намерены в ближайшем будущем основать свою компанию и запустить стартап, то вам нужно узнать много новых вещей. Тех, которым не учат в университетах и которые не рассказывают наемным работникам. Самый сложный этап стартапа - это его начало. И вы можете получить все необходимые для этого знания и навыки. </p>
+
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="span6">
             <h4>Технологии, которые вы изучите</h4>
             <ul>
                 <li><strong>Ruby-on-Rails</strong> для программирования серверной части стартапа.</li>
@@ -34,49 +61,8 @@
                 <li><strong>DNS</strong> для управления адресом вашего сайта.</li>
                 <li><strong>GIT</strong> для уравления версиями кода проекта.</li>
             </ul>
-            <h4>Формат обучения</h4>
-            <ul>
-                <li>Три раза в неделю по полтора часа: 45 минут на теорию, 45 минут на практику и вопросы/ответы.</li>
-                <li>Домашние задания на 5 часов в неделю.</li>
-                <li>Не более 10 человек на курс.</li>
-                <li>В последний месяц 100% работа по собственному проекту в формате консультаций.</li>
-            </ul>
-            <h4>Почему оно того стоит</h4>
-            <ul>
-                <li>Получить работающий MVP с минимальными вложениями, не завися от посторонних людей.</li>
-                <li>Вы всегда будете в курсе, что происходит с технической частью проекта, даже когда у вас будет собственный технический отдел.</li>
-            </ul>
-            <h4>Преподаватели</h4>
-            <ul>
-                <li>Михаил Кечинов, со-основатель Студии веб-разработок Михаила Кечинова, HackDay, Conference 42, ZomboLab.</li>
-                <li>Андрей Флегонтов, ведущий разработчик в Студии веб-разработок Михаила Кечинова.</li>
-                <li>Виктор Бойко, front-end разработчик в Студии веб-разработок Михаила Кечинова.</li>
-                <li>Ян Горбун, дизайнер в Студии веб-разработок Михаила Кечинова.</li>
-            </ul>
-            <h4>Входные требования</h4>
-            <ul>
-                <li>Наличие ноутбука (будем ставить Linux).</li>
-                <li>Знание английского на уровне чтения документации со словарем.</li>
-            </ul>
-
-            <div class="well">Ближайший курс начинается с 1 декабря 2012 года</div>
-
-            <h4>Основной курс</h4>
-
-            <p>Основной курс - 2 месяца. За это время вы будете способны разработать MVP своего проекта на Ruby-on-Rails и разместить его в интернете.</p>
-            <p>Стоимость курса &mdash; 35000 рублей.</p>
-            <p><input type="button" class="btn btn-success" value="Подать заявку"></p>
-
-            <h4>Расширенный курс</h4>
-
-            <p>Третий месяц обучения мы посвятим разработке вашего собственного проекта. Таким образом по результатам третьего месяца вы разработаете MVP своего стартапа.</p>
-            <p>Стоимость расширенного курса &mdash; 55000 рублей.</p>
-            <p><input type="button" class="btn btn-success" value="Подать заявку на расширенный курс"></p>
-
         </div>
         <div class="span6">
-            <h3>Курс IT-предпринимательства</h3>
- <p>Если вы намерены в ближайшем будущем основать свою компанию и запустить стартап, то вам нужно узнать много новых вещей. Тех, которым не учат в университетах и которые не рассказывают наемным работникам. Самый сложный этап стартапа - это его начало. И вы можете получить все необходимые для этого знания и навыки. </p>
             <h4>Чему вы научитесь?</h4>
             <ul>
                 <li><strong>Работе с идеями</strong> и их оценке по основным критериям.</li>
@@ -88,6 +74,22 @@
                 <li><strong>Подготовке инвестиционного пакета</strong>.</li>
                 <li><strong>Оформлению инвестиционных отношений</strong>.</li>
             </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="span6">
+            <h4>Формат обучения</h4>
+            <ul>
+                <li>Три раза в неделю по полтора часа: 45 минут на теорию, 45 минут на практику и вопросы/ответы.</li>
+                <li>Домашние задания на 5 часов в неделю.</li>
+                <li>Не более 10 человек на курс.</li>
+                <li>В последний месяц 100% работа по собственному проекту в формате консультаций.</li>
+            </ul>
+        </div>
+        <div class="span6">
             <h4>Формат обучения</h4>
             <ul>
                 <li>Два раза в неделю по два часа: 1 час на теорию, 1 час на практику и вопросы/ответы.</li>
@@ -95,11 +97,41 @@
                 <li>Не более 10 человек на курс.</li>
                 <li>В конце курса - представление проекта, который будет подготовлен за время курса, инвесторам и экспертам.</li>
             </ul>
+        </div>
+    </div>
+
+   <hr>
+
+    <div class="row">
+        <div class="span6">
+            <h4>Почему оно того стоит</h4>
+            <ul>
+                <li>Получить работающий MVP с минимальными вложениями, не завися от посторонних людей.</li>
+                <li>Вы всегда будете в курсе, что происходит с технической частью проекта, даже когда у вас будет собственный технический отдел.</li>
+            </ul>
+        </div>
+        <div class="span6">
             <h4>Почему оно того стоит</h4>
             <ul>
                 <li>Вы будете готовы пройти весь путь от идеи до первых инвестиций.</li>
                 <li>Вы сэкономите огромное количество времени и денег, не совершая традиционных ошибок.</li>
             </ul>
+        </div>
+    </div>
+
+   <hr>
+
+    <div class="row">
+        <div class="span6">
+            <h4>Преподаватели</h4>
+            <ul>
+                <li>Михаил Кечинов, со-основатель Студии веб-разработок Михаила Кечинова, HackDay, Conference 42, ZomboLab.</li>
+                <li>Андрей Флегонтов, ведущий разработчик в Студии веб-разработок Михаила Кечинова.</li>
+                <li>Виктор Бойко, front-end разработчик в Студии веб-разработок Михаила Кечинова.</li>
+                <li>Ян Горбун, дизайнер в Студии веб-разработок Михаила Кечинова.</li>
+            </ul>
+        </div>
+        <div class="span6">
             <h4>Преподаватели</h4>
             <ul>
                 <li>Евгения Смородникова, со-основатель ZomboLab, Freshle.com, ментор проектов likehack.com, enloca.com, smailex.com.</li>
@@ -107,12 +139,56 @@
                 <li>Андрей Комаровский, CEO и VP of Sales нескольких проектов,включая продажу проектов американским компаниям.</li>
                 <li>Эксперты и guest speakers по конкретным темам (инвесторы, успешные предприниматели, эксперты по конкретным рынкам).</li>
             </ul>
+        </div>
+    </div>
+
+   <hr>
+
+    <div class="row">
+        <div class="span6">
+            <h4>Входные требования</h4>
+            <ul>
+                <li>Наличие ноутбука (будем ставить Linux).</li>
+                <li>Знание английского на уровне чтения документации со словарем.</li>
+            </ul>
+        </div>
+        <div class="span6">
             <h4>Входные требования</h4>
             <ul>
                 <li>Наличие ноутбука или планшетника.</li>
-                <li>Желательно наличие начальной идеи или темы.</li>				
-				<li>Английский - как минимум Intermediate.</li>
+                <li>Желательно наличие начальной идеи или темы.</li>
+                <li>Английский - как минимум Intermediate.</li>
             </ul>
+        </div>
+    </div>
+
+   <hr>
+
+    <div class="row">
+        <div class="span6">
+            <div class="well">Ближайший курс начинается с 1 декабря 2012 года</div>
+
+            <h4>Основной курс</h4>
+
+            <p>Основной курс - 2 месяца. За это время вы будете способны разработать MVP своего проекта на Ruby-on-Rails и разместить его в интернете.</p>
+            <p>Стоимость курса &mdash; 35000 рублей.</p>
+            <p><input type="button" class="btn btn-success" value="Подать заявку" onclick="$('#dev-course-basic').show(); $(this).hide();"></p>
+            <div class="well hide" id="dev-course-basic">
+                <form action='https://madmimi.com/signups/subscribe/63313' method='post'>
+                    <div class='mimi_field text email required'>
+                        <label>Email</label>
+                        <input name='signup[email]' type='text' placeholder='you@example.com' class='required'>
+                        <span class='mimi_field_feedback'></span><span class='mimi_funk'></span>
+                    </div>
+                    <div class='mimi_field action'>
+                        <button type='submit' class='btn btn-success' data-default-text='Отправить заявку' data-submitting-text='Sending…' data-invalid-text='↑ You forgot some required fields'>Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="span6">
 
             <div class="well">Ближайший курс начинается с 1 декабря 2012 года</div>
 
@@ -120,18 +196,71 @@
 
             <p>Длительность курса - 1 месяц. За это время вы получите все необходимые знания, инструменты и навыки для запуска стартапа, выработаете стоящую идею.</p>
             <p>Стоимость курса &mdash; 25000 рублей.</p>
-            <p><input type="button" class="btn btn-success" value="Подать заявку"></p>
+            <p><input type="button" class="btn btn-success" value="Подать заявку" onclick="$('#business-course-basic').show(); $(this).hide();"></p>
+
+            <div class="well hide" id="business-course-basic">
+                <form action='https://madmimi.com/signups/subscribe/63422' method='post'>
+                    <div class='mimi_field text email required'>
+                        <label>Email</label>
+                        <input name='signup[email]' type='text' placeholder='you@example.com' class='required'>
+                        <span class='mimi_field_feedback'></span><span class='mimi_funk'></span>
+                    </div>
+                    <div class='mimi_field action'>
+                        <button type='submit' class='btn btn-success' data-default-text='Отправить заявку' data-submitting-text='Sending…' data-invalid-text='↑ You forgot some required fields'>Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="span6">
+
+            <h4>Расширенный курс</h4>
+            <p>Включает в себя основной курс и еще один месяц месяц обучения, который мы посвятим разработке вашего собственного проекта. Таким образом по результатам третьего месяца вы разработаете MVP своего стартапа.</p>
+            <p>Стоимость расширенного курса &mdash; 55000 рублей.</p>
+            <p><input type="button" class="btn btn-success" value="Подать заявку на расширенный курс" onclick="$('#dev-course-full').show(); $(this).hide();"></p>
+
+            <div class="well hide" id="dev-course-full">
+                <form action='https://madmimi.com/signups/subscribe/63419' method='post'>
+                    <div class='mimi_field text email required'>
+                        <label>Email</label>
+                        <input name='signup[email]' type='text' placeholder='you@example.com' class='required'>
+                        <span class='mimi_field_feedback'></span><span class='mimi_funk'></span>
+                    </div>
+                    <div class='mimi_field action'>
+                        <button type='submit' class='btn btn-success' data-default-text='Отправить заявку' data-submitting-text='Sending…' data-invalid-text='↑ You forgot some required fields'>Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="span6">
 
             <h4>Расширенный курс</h4>
 
             <p>Длительность курса - 1 месяц. За это время вы сможете подготовить свой стартап к инвестициям, либо понять, что они вам не нужны.</p>
             <p>Стоимость расширенного курса &mdash; 30000 рублей.</p>
-            <p><input type="button" class="btn btn-success" value="Подать заявку на расширенный курс"></p>
+            <p><input type="button" class="btn btn-success" value="Подать заявку на расширенный курс" onclick="$('#business-course-full').show(); $(this).hide();"></p>
+
+            <div class="well hide" id="business-course-full">
+                <form action='https://madmimi.com/signups/subscribe/63421' method='post'>
+                    <div class='mimi_field text email required'>
+                        <label>Email</label>
+                        <input name='signup[email]' type='text' placeholder='you@example.com' class='required'>
+                        <span class='mimi_field_feedback'></span><span class='mimi_funk'></span>
+                    </div>
+                    <div class='mimi_field action'>
+                        <button type='submit' class='btn btn-success' data-default-text='Отправить заявку' data-submitting-text='Sending…' data-invalid-text='↑ You forgot some required fields'>Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
 
         </div>
-        <div class="span6">
-        </div>
     </div>
+
+
 </div>
 
 </body>

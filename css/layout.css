@@ -1,0 +1,33 @@
+/* Перезаписываем стили Bootstrap */
+/*body{margin:0;font-family:Georgia, "Times New Roman", serif;font-size:14px;line-height:20px;color:#333333;background-color:#ffffff;}*/
+/*h1,h2,h3,h4,h5,h6 {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;}*/
+
+h3 {
+	text-shadow: inset 1px 0 0 #fff;
+}
+
+header {
+	padding: 40px 0;
+
+}
+	header .description {
+		color: #b9002e;
+		font-size: 40px;
+		line-height: 1em;
+		font-family: Georgia, "Times New Roman", serif;
+	}
+
+	header .name {
+		color: #b9002e;
+		font-size: 80px;
+		line-height: 1em;
+		font-family: Georgia, "Times New Roman", serif;
+	}
+
+	header .intro {
+		padding: 10px;
+		background: #b9002e;
+		color: #fff;
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 16px;
+	}
