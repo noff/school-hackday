@@ -11,17 +11,20 @@ header {
 
 }
 	header .description {
-		color: #b9002e;
 		font-size: 40px;
 		line-height: 1em;
 		font-family: Georgia, "Times New Roman", serif;
 	}
 
 	header .name {
-		color: #b9002e;
 		font-size: 80px;
 		line-height: 1em;
 		font-family: Georgia, "Times New Roman", serif;
+	}
+
+	header a, header a:hover {
+		color: #b9002e;
+		text-decoration: none;
 	}
 
 	header .intro {
@@ -30,4 +33,34 @@ header {
 		color: #fff;
 		font-family: Georgia, "Times New Roman", serif;
 		font-size: 16px;
+	}
+
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+	color: #b9002e;
+	font-weight: normal;
+	margin-bottom: 40px;
+	margin-top: 80px;
+}
+
+h3 {
+	margin-top: 20px;
+}
+
+
+.course-info {
+	background: #f2f2f2;
+	padding: 20px;
+}
+
+.footer {
+	text-align: center;
+	padding: 20px 0 80px 0;
+	margin-top: 20px;
+	border-top: 1px solid #eee;
+}
+	.footer a {
+		color: #aaa;
 	}
