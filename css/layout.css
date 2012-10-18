@@ -44,6 +44,15 @@ h1 {
 	margin-bottom: 40px;
 	margin-top: 80px;
 }
+h1.pretitle {
+	margin-bottom: 20px;
+}
+h1.subtitle {
+	line-height: 0;
+	margin-top: 0;
+	font-size: 40px;
+	color: #555;
+}
 
 h3 {
 	margin-top: 20px;
@@ -74,3 +83,10 @@ h3 {
 	.course-shares > div {
 		margin-bottom: 10px;
 	}
+
+
+.btn, input[type="text"] {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
