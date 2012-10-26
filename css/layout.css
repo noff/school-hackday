@@ -109,7 +109,9 @@ h3 {
 .home-shares {
 	margin: auto;
 	margin-top: 20px;
+	border-top: 1px solid #eee;
 }
+	.home-shares td {padding-top: 10px;}
 	.home-shares .gplus {width: 100px;}
 	.home-shares .twitter {width: 100px;}
 	.home-shares .vk {width: 100px;}
