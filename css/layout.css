@@ -94,6 +94,7 @@ h3 {
 
 .couch {
 	min-height: 100px;
+	margin-bottom: 20px;
 }
 	.couch .photo {
 		float: left;
