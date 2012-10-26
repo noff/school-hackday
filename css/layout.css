@@ -104,3 +104,9 @@ h3 {
 	.couch .info { margin-left: 110px; }
 		.couch .info .name { font-size: 120%; font-weight: bold;}
 		.couch .info .bio { font-size: 13px; line-height: 18px;}
+
+
+.home-shares {
+	margin: auto;
+	margin-top: 20px;
+}
