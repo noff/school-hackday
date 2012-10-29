@@ -85,7 +85,7 @@ h3 {
 	}
 
 
-.btn, input[type="text"] {
+.btn, input[type="text"], .alert {
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
@@ -116,3 +116,6 @@ h3 {
 	.home-shares .twitter {width: 100px;}
 	.home-shares .vk {width: 100px;}
 	.home-shares .facebook {width: 200px;}
+
+
+.single-page-notice { margin-bottom: 200px; }
