@@ -63,7 +63,20 @@
 <?php
     $email = @$_REQUEST['email'];
     if($email) {
-        $f = fopen("emails.txt", "a");
+
+		switch(@$_REQUEST['course']) {
+			case 'business':
+				$course = 'business';
+				break;
+			case 'webdev':
+				$course = 'webdev';
+				break;
+			default:
+				$course = 'undefined';
+				break;
+		}
+
+        $f = fopen("emails-" . $course . ".txt", "a");
         fwrite($f, $email . "\r\n");
         fclose($f);
     }
