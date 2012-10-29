@@ -61,7 +61,7 @@
 <div id="fb-root"></div>
 
 <?php
-    $email = @$_POST['email'];
+    $email = @$_REQUEST['email'];
     if($email) {
         $f = fopen("emails.txt", "a");
         fwrite($f, $email . "\r\n");
