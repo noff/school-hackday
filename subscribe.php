@@ -77,7 +77,7 @@
 		}
 
         $f = fopen("emails-" . $course . ".txt", "a");
-        fwrite($f, $email . "\r\n");
+        fwrite($f, $email . "\t" . $_REQUEST["key"] .  "\r\n");
         fclose($f);
     }
 ?>
