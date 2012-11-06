@@ -62,6 +62,8 @@
 
 <?php
     $email = @$_REQUEST['email'];
+    $name = @$_REQUEST['name'];
+    $phone = @$_REQUEST['phone'];
     if($email) {
 
 		switch(@$_REQUEST['course']) {
@@ -77,7 +79,7 @@
 		}
 
         $f = fopen("emails-" . $course . ".txt", "a");
-        fwrite($f, $email . "\t" . $_REQUEST["key"] .  "\r\n");
+        fwrite($f, $email . "\t" . $name . "\t" . $phone . "\t" . $_REQUEST["key"] .  "\r\n");
         fclose($f);
     }
 ?>
