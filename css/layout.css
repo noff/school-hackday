@@ -91,7 +91,7 @@ h3 {
 	}
 
 
-.btn, input[type="text"], .alert {
+.btn, input[type="text"], .alert, .popover {
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
@@ -130,3 +130,8 @@ h3 {
 	font-weight: bold;
 	color: green;
 }
+
+.popover { }
+	.popover .popover-inner { font-size: 12px; line-height: 14px; }
+		.popover .popover-inner .popover-title { font-weight: bold; padding: 5px 10px; }
+		.popover .popover-inner .popover-content { padding: 10px; }

@@ -80,8 +80,8 @@
         <div class="span6">
             <h3>Курс веб-разработки</h3>
             <p>Если вы решили разработать свой стартап, но у вас нет технической команды и инвестиций на заказную разработку, вы можете сделать первую версию своего стартапа самостоятельно. Даже не смотря на то, что вы совершенно не умеете программировать.</p>
-            <p class="announce-for-course">Набор открыт. Начало занятий 3 декабря.</p>
-            <p><a href="web-development.html" class="btn btn-success">Подробнее</a></p>
+            <!--<p class="announce-for-course"></p>-->
+            <p><a href="web-development.html" class="btn btn-success popoverable" data-title="Набор открыт" data-content="Начало занятий 3 декабря. Всего 12 мест, из них 5 уже заняты.">Подробнее</a></p>
         </div>
         <div class="span6">
             <h3>Курс IT-предпринимательства</h3>
@@ -166,6 +166,12 @@
 <div class="footer">
     <p>По вопросам обращаться: Михаил Кулаков, <a href="mailto:mikhail.kulakov@mkechinov.ru">mikhail.kulakov@mkechinov.ru</a>, 8-964-329-6771</p>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.popoverable').popover({placement: 'left'}).popover('show');
+    });
+</script>
 
 </body>
 </html>
