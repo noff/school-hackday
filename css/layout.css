@@ -135,3 +135,12 @@ h3 {
 	.popover .popover-inner { font-size: 12px; line-height: 14px; }
 		.popover .popover-inner .popover-title { font-weight: bold; padding: 5px 10px; }
 		.popover .popover-inner .popover-content { padding: 10px; }
+
+
+.announce {
+	padding: 20px;
+	border: 1px dashed #aaa;
+}
+	.announce h1 {
+		margin-top: 0;
+	}
